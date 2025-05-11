@@ -25,9 +25,43 @@
         </nav>
         <form method="post" action="#">
             <div>
-                <label>Name:<br><input name="name" type="text" size="25"></input></label><br><br>
-                <label>Email:<br><input name="email" type="email" size="25"></input></label>
+                <label>Name:<br>
+                    <input id="name" name="name" type="text" size="25" maxlength="50" required></input>
+                </label><br><br>
+
+                <label>Email:<br>
+                    <input id="email" name="email" type="email" size="25" maxlength="50" placeholder="e.g. john.doe@gmail.com" required></input>
+                </label><br><br>
+                
+                <label>Phone Number:<br>
+                    <input id="phone" name="phone" type="tel" size="25" maxlength="12" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"placeholder="e.g. 555-444-3333 (optional)"></input>
+                </label><br><br>
             </div>
+            
+            <div>
+                <label>Message:<br><textarea id="message" name="message" rows="5" cols="75" maxlength="750" required></textarea></label><br><br>
+            </div>
+
+            <p>Reason for contact:</p>
+            <label>
+                <input name="reason" type="checkbox" value="question">I have a question</input>
+                <input name="reason" type="checkbox" value="collaboration">I have a question</input>
+                <input name="reason" type="checkbox" value="other">Other</input>
+            </label><br><br>
+
+            <p>How would you like to be contacted?</p>
+            <label>
+                <input name="contact-method" type="radio" value="email">Email</input>
+                <input name="contact-method" type="radio" value ="phone">Phone</input>  
+            </label><br><br>
+
+            <label>Please respond by:
+                <input name="response-deadline" type="date"></input>
+            </label><br><br>
+
+            
+            <input id="submit" name="submit" type="submit">
+            <input id="reset" name="reset" type="reset">
         </form>
     </main>
 
