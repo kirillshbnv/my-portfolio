@@ -35,11 +35,11 @@
         </nav>
         <form method="post" action="#">
             <div>
-                <label>Name:<br>
+                <label>*Name:<br>
                     <input id="name" name="name" type="text" size="25" maxlength="50" required></input>
                 </label><br><br>
 
-                <label>Email:<br>
+                <label>*Email:<br>
                     <input id="email" name="email" type="email" size="25" maxlength="50" placeholder="e.g. john.doe@gmail.com" required></input>
                 </label><br><br>
                 
@@ -49,10 +49,10 @@
             </div>
             
             <div>
-                <label>Message:<br><textarea id="message" name="message" rows="5" cols="75" maxlength="750" required></textarea></label><br><br>
+                <label>*Message:<br><textarea id="message" name="message" rows="5" cols="75" maxlength="750" required></textarea></label><br><br>
             </div>
 
-            <p>Reason for contact:</p>
+            <p>*Reason for contact:</p>
             <label>
                 <input name="reason" type="checkbox" value="question">I have a question</input>
                 <input name="reason" type="checkbox" value="collaboration">I would like to collaborate</input>
@@ -61,7 +61,7 @@
 
             <p>How would you like to be contacted?</p>
             <label>
-                <input name="contact-method" type="radio" value="email">Email</input>
+                <input name="contact-method" type="radio" value="email" checked>Email</input>
                 <input name="contact-method" type="radio" value ="phone">Phone</input>  
             </label><br><br>
 
@@ -70,8 +70,8 @@
             </label><br><br>
 
             
-            <input id="submit" name="submit" type="submit">
-            <input id="reset" name="reset" type="reset">
+            <input id="submit" name="submit" type="submit" value="submit">
+            <input id="reset" name="reset" type="reset" value="reset">
         </form>
 
         <section id="social-links">
