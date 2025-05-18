@@ -26,6 +26,14 @@ p {
     color: #b6d7f2;
 }
 
+li {
+    color: #b6d7f2;
+}
+
+table {
+    color: #b6d7f2;
+}
+
 /* --------------------------------------------------
    Header & Logo
 -------------------------------------------------- */
@@ -89,22 +97,4 @@ p {
 .navbar a:hover {
     background-color: #43a4f3;
     color: #131133;
-}
-
-/* --------------------------------------------------
-   Hero Section
--------------------------------------------------- */
-
-.hero {
-    text-align: center;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-.hero a {
-    color: #6bbcff;
-    margin-top: 100px;
-    font-size: 18px;
 }
