@@ -5,8 +5,7 @@
 -------------------------------------------------- */
 
 body {
-    background-color: #131133;
-    margin: 0px;
+    background-image: url(../images/background/space2.jpeg);
 }
 
 main {
@@ -90,4 +89,22 @@ p {
 .navbar a:hover {
     background-color: #43a4f3;
     color: #131133;
+}
+
+/* --------------------------------------------------
+   Hero Section
+-------------------------------------------------- */
+
+.hero {
+    text-align: center;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero a {
+    color: #6bbcff;
+    margin-top: 100px;
+    font-size: 18px;
 }
