@@ -1,32 +1,23 @@
 /* style.css */
 
+/* --------------------------------------------------
+   Base Styles & Resets
+-------------------------------------------------- */
+
 body {
     background-color: #131133;
     margin: 20px;
 }
 
-#logo {
+main {
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 50px;
-    margin-left: 50px;
-    width: 8%;
-    height: auto;
 }
 
-#bio-name {
-    color: #6bbcff;
-    font-size: 77px;
-}
-
-#bio-title {
-    color: #6bbcff;
-    font-size: 24px;
-    margin-top: -25px;
-}
-
-#header {
-    text-align: center;
-    margin-top: -200px;
-}
+/* --------------------------------------------------
+   Typography
+-------------------------------------------------- */
 
 h2, h3 {
     color: #6bbcff;
@@ -34,4 +25,31 @@ h2, h3 {
 
 p {
     color: #b6d7f2;
+}
+
+/* --------------------------------------------------
+   Header & Logo
+-------------------------------------------------- */
+
+.header {
+    text-align: center;
+    margin-top: -175px;
+}
+
+.header h1 {
+    color: #6bbcff;
+    font-size: 77px;
+}
+
+.header p {
+    color: #6bbcff;
+    font-size: 24px;
+    margin-top: -25px;
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 10%;
+    height: auto;
 }
