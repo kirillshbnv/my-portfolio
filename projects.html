@@ -14,27 +14,34 @@
     <meta name="format-detection" content="telephone=no">
     
     <title>Projects</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="top">
     <header>
-        <a href="index.html"><img src="images/logo/logo.jpg" alt="Main Logo" width="100"></a>
-        <h1>PROJECTS</h1>
+        <a href="index.html"><img id="logo" src="images/logo/logo.jpg" alt="Main Logo" width="100"></a>
+        <div class="header">
+            <h1>KIRILL SHABANOV</h1>
+            <p>CS Student · Systems Developer · Low-Level & Web-Focused</p>
+        </div>
     </header>
 
-    <main>
-        <!-- Main Navigation Menu -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about-me.html">About Me</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- Main Navigation Menu -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section id="project-summary">
+    <main>
+        <h1>Projects</h1>
+
+        <section id="project-summary" class="project-table">
             <header>
                 <h3>Project Table</h3>
             </header>
@@ -87,162 +94,140 @@
         <hr>
 
         <!-- Projects below are ordered from newest to oldest -->
-        <section id="snake-frenzy">
+        <article id="snake-frenzy" class="project">
             <header>
-                    <h2>Snake Frenzy - Atari ST (2D Game)</h2>
+                <h2>Snake Frenzy - Atari ST (2D Game)</h2>
             </header>
-            
-            <article>
-                <header>
-                    <h3> About the Project:</h3>    
-                </header>
 
-                <p><strong>Project Description: </strong>
-                    A fast-paced arcade game built in C for the Atari ST, using direct bitmap manipulation and raster graphics. 
-                    Players control a growing snake with keyboard input, navigating hazards like spikes, borders, and self-collision 
-                    while consuming randomly spawning bugs. The game runs at a 70Hz refresh rate and is being optimized with Motorola 68k assembly.
-                </p>
+            <p><strong>Project Description: </strong>
+                A fast-paced arcade game built in C for the Atari ST, using direct bitmap manipulation and raster graphics. 
+                Players control a growing snake with keyboard input, navigating hazards like spikes, borders, and self-collision 
+                while consuming randomly spawning bugs. The game runs at a 70Hz refresh rate and is being optimized with Motorola 68k assembly.
+            </p>
 
-                <p><strong>Date Started: </strong>May 2025</p>
+            <p><strong>Date Started: </strong>May 2025</p>
 
-                <p><strong>Status: </strong>In Development</p>
+            <p><strong>Status: </strong>In Development</p>
 
-                <p><strong>Role: </strong>Game Developer (Low-Level Systems)</p>
+            <p><strong>Role: </strong>Game Developer (Low-Level Systems)</p>
 
-                <p><strong>Technologies Used: </strong>C, Bitmap Graphics, Raster Rendering, 68k ASM (planned)</p>
+            <p><strong>Technologies Used: </strong>C, Bitmap Graphics, Raster Rendering, 68k ASM (planned)</p>
 
-                <p><strong>Key Features:</strong></p>
-                <ul>
-                    <li>Monochrome raster graphics via direct pixel rendering</li>
-                    <li>Randomized bug and spike spawning</li>
-                    <li>Real-time collision detection at 70Hz refresh rate</li>
-                    <li>Planned splash screen with mouse interaction</li>
-                    <li>Sound effects for game events</li>
-                    <li>Optimized game loop (68k ASM planned)</li>
-                </ul>
-            </article>
-        </section>
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Monochrome raster graphics via direct pixel rendering</li>
+                <li>Randomized bug and spike spawning</li>
+                <li>Real-time collision detection at 70Hz refresh rate</li>
+                <li>Planned splash screen with mouse interaction</li>
+                <li>Sound effects for game events</li>
+                <li>Optimized game loop (68k ASM planned)</li>
+            </ul>
+        </article>
         <hr>
 
-        <section id="guitar-tutor">
+        <article id="guitar-tutor" class="project">
             <header>
                 <h2>Guitar Tutoring Website</h2>
             </header>
 
-            <article>
-                <header>
-                    <h3> About the Project:</h3>    
-                </header>
+            <p><strong>Project Description: </strong>
+                Currently in the planning and design phase, this website will serve as an online presence for a local guitar tutor, 
+                with the goal of showcasing services, managing scheduling, and providing helpful content to prospective students. 
+                The focus is on building a lightweight, maintainable site using semantic HTML and CSS, with future plans for interactive elements 
+                (e.g., lesson booking, FAQs, or video embeds) using JavaScript.
+            </p>
 
-                <p><strong>Project Description: </strong>
-                    Currently in the planning and design phase, this website will serve as an online presence for a local guitar tutor, 
-                    with the goal of showcasing services, managing scheduling, and providing helpful content to prospective students. 
-                    The focus is on building a lightweight, maintainable site using semantic HTML and CSS, with future plans for interactive elements 
-                    (e.g., lesson booking, FAQs, or video embeds) using JavaScript.
-                </p>
+            <p><strong>Date Started: </strong>May 2025</p>
 
-                <p><strong>Date Started: </strong>May 2025</p>
+            <p><strong>Status: </strong>Design Phase</p>
 
-                <p><strong>Status: </strong>Design Phase</p>
+            <p><strong>Role: </strong>Frontend Developer</p>
 
-                <p><strong>Role: </strong>Frontend Developer</p>
+            <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
 
-                <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
-
-                <p><strong>Development Considerations: </strong>
-                    The focus at this stage is on designing an intuitive user experience and planning a modular layout that can grow with the tutor's business.
-                </p>
-                
-                <p>Key considerations include:</p>
-                <ul>
-                    <li>Creating a logical content hierarchy (e.g., services, pricing, testimonials, contact)</li>
-                    <li>Planning for mobile responsiveness and accessibility from the ground up</li>
-                    <li>Researching similar tutoring websites for design inspiration and feature benchmarking</li>
-                    <li>Outlining future features like embedded lesson videos or a lesson booking request system</li>
-                </ul>
-            </article>
-        </section>
+            <p><strong>Development Considerations: </strong>
+                The focus at this stage is on designing an intuitive user experience and planning a modular layout that can grow with the tutor's business.
+            </p>
+            
+            <p>Key considerations include:</p>
+            <ul>
+                <li>Creating a logical content hierarchy (e.g., services, pricing, testimonials, contact)</li>
+                <li>Planning for mobile responsiveness and accessibility from the ground up</li>
+                <li>Researching similar tutoring websites for design inspiration and feature benchmarking</li>
+                <li>Outlining future features like embedded lesson videos or a lesson booking request system</li>
+            </ul>
+        </article>
         <hr>
 
-        <section id="larchic-nails">
+        <article id="larchic-nails" class="project">
             <header>
                 <h2>Nail Service Website</h2>
             </header>
 
-            <article>
-                <header>
-                    <h3> About the Project:</h3>    
-                </header>
+            <p><strong>Project Description: </strong>
+                A responsive, client-focused website currently in development for a local nail technician. 
+                The goal is to create a clean and professional online presence that highlights services, showcases past work, and simplifies the booking process for clients. 
+                The project is being hand-coded with semantic HTML and CSS, with future enhancements planned using JavaScript for interactive features.
+            </p>
 
-                <p><strong>Project Description: </strong>
-                    A responsive, client-focused website currently in development for a local nail technician. 
-                    The goal is to create a clean and professional online presence that highlights services, showcases past work, and simplifies the booking process for clients. 
-                    The project is being hand-coded with semantic HTML and CSS, with future enhancements planned using JavaScript for interactive features.
-                </p>
+            <p><strong>Date Started: </strong>May 2025</p>
 
-                <p><strong>Date Started: </strong>May 2025</p>
+            <p><strong>Status: </strong>Design Phase</p>
 
-                <p><strong>Status: </strong>Design Phase</p>
+            <p><strong>Role: </strong>Frontend Developer</p>
 
-                <p><strong>Role: </strong>Frontend Developer</p>
+            <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
 
-                <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
-
-                <p><strong>Development Considerations: </strong>
-                    This project is currently in progress, with a focus on clean, maintainable structure and responsive design. 
-                    I'm building modular sections that can easily adapt as features are added.
-                </p> 
-                
-                <p>Key considerations include:</p>
-                <ul>
-                    <li>Displaying a clear, accessible list of services with pricing</li>
-                    <li>Creating a gallery to highlight the technician's work visually</li>
-                    <li>Integrating contact options and social media for client engagement</li>
-                    <li>Implementing a mobile-first layout using CSS flexbox and media queries</li>
-                </ul>
-            </article>
-        </section>
+            <p><strong>Development Considerations: </strong>
+                This project is currently in progress, with a focus on clean, maintainable structure and responsive design. 
+                I'm building modular sections that can easily adapt as features are added.
+            </p> 
+            
+            <p>Key considerations include:</p>
+            <ul>
+                <li>Displaying a clear, accessible list of services with pricing</li>
+                <li>Creating a gallery to highlight the technician's work visually</li>
+                <li>Integrating contact options and social media for client engagement</li>
+                <li>Implementing a mobile-first layout using CSS flexbox and media queries</li>
+            </ul>
+        </article>
         <hr>
 
-        <section id="portfolio">
+        <article id="portfolio" class="project">
             <header>
                 <h2>Portfolio Website</h2>
             </header>
 
-            <article>
-                <header>
-                    <h3> About the Project:</h3>    
-                </header>
-                <p><strong>Project Description: </strong>
-                    A custom-built portfolio website designed to showcase my development skills, project experience, and personal brand to potential employers and fellow developers. 
-                    This project emphasizes clean code, semantic HTML structure, and scalability, with a foundation laid for integrating advanced features like interactive elements 
-                    and responsive styling. The site is intended as both a technical showcase and a central platform for networking and professional outreach.
-                </p>
+            <p><strong>Project Description: </strong>
+                A custom-built portfolio website designed to showcase my development skills, project experience, and personal brand to potential employers and fellow developers. 
+                This project emphasizes clean code, semantic HTML structure, and scalability, with a foundation laid for integrating advanced features like interactive elements 
+                and responsive styling. The site is intended as both a technical showcase and a central platform for networking and professional outreach.
+            </p>
 
-                <p><strong>Date Started: </strong>May 2025</p>
+            <p><strong>Date Started: </strong>May 2025</p>
 
-                <p><strong>Status: </strong>In Development</p>
+            <p><strong>Status: </strong>In Development</p>
 
-                <p><strong>Role: </strong>Frontend Developer</p>
+            <p><strong>Role: </strong>Frontend Developer</p>
 
-                <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
+            <p><strong>Technologies Used: </strong>HTML, (CSS planned)</p>
 
-                <p><strong>Development Considerations: </strong>
-                    This project is being developed as a foundational platform to demonstrate my frontend skills and serve as a long-term professional hub. 
-                    The structure emphasizes semantic HTML for accessibility and clean markup, and is designed to support responsive styling and component-based layout organization. 
-                    The codebase is intentionally modular to allow for scalable feature development, including planned JavaScript enhancements such as form validation and 
-                    interactive UI elements.
-                </p>
+            <p><strong>Development Considerations: </strong> 
+                This project is being developed as a foundational platform to demonstrate my frontend skills and serve as a long-term professional hub. 
+                The structure emphasizes semantic HTML for accessibility and clean markup, and is designed to support responsive styling and component-based layout organization. 
+                The codebase is intentionally modular to allow for scalable feature development, including planned JavaScript enhancements such as form validation and 
+                interactive UI elements.
+            </p>
 
-                <p>Key considerations include:</p>
-                <ul>
-                    <li>Using semantic HTML5 for clean, accessible, and SEO-friendly markup</li>
-                    <li>Designing modular sections to support maintainable styling and layout changes</li>
-                    <li>Planning to implement responsive design using flexbox and media queries as CSS is developed</li>
-                </ul>
-            </article>
-        </section>
+            <p>Key considerations include:</p>
+            <ul>
+                <li>Using semantic HTML5 for clean, accessible, and SEO-friendly markup</li>
+                <li>Designing modular sections to support maintainable styling and layout changes</li>
+                <li>Planning to implement responsive design using flexbox and media queries as CSS is developed</li>
+            </ul>
+        </article>
         <hr>
+
     </main>
 
     <footer>
