@@ -25,6 +25,10 @@ p {
     color: #D1D5DB;
 }
 
+label {
+    color: #D1D5DB;
+}
+
 li {
     color: #D1D5DB;
 }
@@ -61,6 +65,7 @@ table {
 #page-title {
     text-align: center;
     font-size: 42px;
+    color: #D1D5DB;
 }
 
 /* --------------------------------------------------
