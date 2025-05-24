@@ -1,0 +1,12 @@
+input[name="user-data"] {
+    width: 185px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#message {
+    width: 400px;
+    border-radius: 10px;
+    outline: none;
+}
