@@ -24,3 +24,11 @@ th {
 td {
     height: 40px;
 }
+
+.projects-table tr:nth-child(even) {
+    background-color: #0d4e6f;
+}
+
+.projects-table tr:nth-child(odd) {
+    background-color: rgb(50, 124, 143);
+}
