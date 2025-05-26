@@ -40,3 +40,7 @@ td {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.project h2::first-letter {
+    font-size: 200%;
+}
