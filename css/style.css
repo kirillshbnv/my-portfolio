@@ -116,18 +116,27 @@ table {
 -------------------------------------------------- */
 
 .footer {
-    bottom: 0;
-    margin-left: 25px;
+    width: 90%;
+    margin: 75px auto 0 auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
 }
 
 .footer ul {
-    margin-left: -20px;
+    padding: 0;
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
 
 .footer li{
-    padding-bottom: 4px;
-    padding-bottom: 4px;
-    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+
+.footer img {
+    width: 2.5rem;
 }
 
 .footer a {
