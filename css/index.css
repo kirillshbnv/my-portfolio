@@ -24,26 +24,21 @@
    Tech Stack
 -------------------------------------------------- */
 
-.tech-stack {
-    margin-top: 55px;
+.tech-stack-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.tech-stack-items {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 0;
 }
 
 .tech-stack h2 {
     text-align: center;
 }
-
-.tech-stack table {
-    border-style: solid;
-    border-width: 2px;
-    border-color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.tech-stack td {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-}
-
