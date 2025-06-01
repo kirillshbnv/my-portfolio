@@ -19,22 +19,12 @@ main {
 
 h1, h2, h3 {
     color: #66CCFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p {
+p, label, li, table {
     color: #D1D5DB;
-}
-
-label {
-    color: #D1D5DB;
-}
-
-li {
-    color: #D1D5DB;
-}
-
-table {
-    color: #D1D5DB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* --------------------------------------------------
