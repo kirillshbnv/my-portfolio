@@ -1,4 +1,42 @@
 /* mobile.css */
 /* Styles specific to mobile devices (up to 767px) */
 
-@media only screen and (max-width: 590px)  {}
+@media only screen and (max-width: 590px)  {
+
+    /* --------------------------------------------------
+    Header & Logo
+    -------------------------------------------------- */
+    
+    .header-container {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    } 
+    
+    #header-logo {
+        width: 100%;
+        max-width: 180px;
+    }   
+
+
+    /* --------------------------------------------------
+    Navigation Bar
+    -------------------------------------------------- */
+
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navbar li {
+        flex: 1;
+        text-align: center;
+    }
+}
