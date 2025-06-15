@@ -130,6 +130,10 @@ p, label, li, table {
     text-align: center;
 }
 
+.footer p {
+    color: #D1D5DB;
+}
+
 .footer ul {
     padding: 0;
     margin: 10px 0 10px 0;
