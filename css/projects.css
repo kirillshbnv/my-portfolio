@@ -1,38 +1,4 @@
 /* --------------------------------------------------
-   Projects Table
--------------------------------------------------- */
-
-table, th, td {
-    text-align: center;
-    border: 1px solid;
-    border-collapse: collapse;
-    width: 40%;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-th {
-    height: 25px;
-}
-
-td {
-    height: 40px;
-}
-
-.projects-table tr:nth-child(even) {
-    background-color: #0d4e6f;
-}
-
-.projects-table tr:nth-child(odd) {
-    background-color: rgb(50, 124, 143);
-}
-
-/* --------------------------------------------------
    Projects List
 -------------------------------------------------- */
 
